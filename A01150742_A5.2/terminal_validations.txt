@@ -1,0 +1,47 @@
+joseovalle@MacBook-Air-de-Jose 5.2.ejercicio_programacion_2 % pylint computesales.py
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+joseovalle@MacBook-Air-de-Jose 5.2.ejercicio_programacion_2 % flake8 computesales.py
+joseovalle@MacBook-Air-de-Jose 5.2.ejercicio_programacion_2 % python3 computesales.py TC1.ProductList.json TC1.Sales.json
+
+Input file 1: TC1.ProductList.json
+Input file 2: TC1.Sales.json
+
+Reading productlist file: /Users/joseovalle/Desktop/pruebas_calidad/5.2.ejercicio_programacion_2/TC1.ProductList.json
+Reading records file: /Users/joseovalle/Desktop/pruebas_calidad/5.2.ejercicio_programacion_2/TC1.Sales.json
+
+Total sales: 2481.8600
+
+Elapsed Time: 0.0008 seconds
+
+joseovalle@MacBook-Air-de-Jose 5.2.ejercicio_programacion_2 % python3 computesales.py TC1.ProductList.json TC2.Sales.json
+
+Input file 1: TC1.ProductList.json
+Input file 2: TC2.Sales.json
+
+Reading productlist file: /Users/joseovalle/Desktop/pruebas_calidad/5.2.ejercicio_programacion_2/TC1.ProductList.json
+Reading records file: /Users/joseovalle/Desktop/pruebas_calidad/5.2.ejercicio_programacion_2/TC2.Sales.json
+
+Total sales: 166568.2300
+
+Elapsed Time: 0.0005 seconds
+
+joseovalle@MacBook-Air-de-Jose 5.2.ejercicio_programacion_2 % python3 computesales.py TC1.ProductList.json TC3.Sales.json
+
+Input file 1: TC1.ProductList.json
+Input file 2: TC3.Sales.json
+
+Reading productlist file: /Users/joseovalle/Desktop/pruebas_calidad/5.2.ejercicio_programacion_2/TC1.ProductList.json
+Reading records file: /Users/joseovalle/Desktop/pruebas_calidad/5.2.ejercicio_programacion_2/TC3.Sales.json
+
+Product 'Elotes' not found in the catalog.
+
+Product 'Frijoles' not found in the catalog.
+
+Total sales: 165235.3700
+
+Elapsed Time: 0.0010 seconds
+
+joseovalle@MacBook-Air-de-Jose 5.2.ejercicio_programacion_2 % 
